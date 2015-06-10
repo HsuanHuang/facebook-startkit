@@ -70,6 +70,7 @@ if (response.status === 'connected') {
        $('#fbImgView').append("<h1>Welcome ,+(response['gender']=="male"?"Mr. ":"Miss "")
     +" "+response['first_name']+"</h1>");
 });
+FB.api(path, method, params, callback);
 }
 });
   },
